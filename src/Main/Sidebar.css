@@ -1,0 +1,145 @@
+.sidebar{
+    top:80px;
+    position: sticky;
+    flex:0.2 ;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+}
+
+.sidebar_top > h2{
+    font-size:18px;
+}
+.sidebar_top > h4{
+    color: gray;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.sidebar_top > img{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.sidebar_avatar{
+    margin-bottom: 10px;
+}
+.sidebar_stat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar_stat > p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sidebar_stats{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebar_sideNumber{
+    font-weight: bold;
+    color:#0a66c2 !important;
+}
+.sidebar_bottom{
+    text-align: left;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sidebar_recentItem{
+    display: flex;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: gray;
+}
+.sidebar_recentItem:hover{
+  background-color: whitesmoke; 
+  border-radius: 10px;
+  cursor: pointer;
+  color: black; 
+}
+.sidebar_hash{
+    margin-left:10px ;
+    margin-right: 5px;
+}
+.sidebar_bottom > p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+@media(max-width:450px){
+    .sidebar{
+        position: relative;
+        top: 80px;
+        width: 85%;
+        flex: 0.8;
+        margin-bottom: 100px;
+    }
+    .sidebar_top{
+        flex: 1;
+    }
+}
+@media(max-width:420px){
+    .sidebar{
+        flex: 1;
+
+    }
+    .sidebar_top{
+    flex: 1;
+    width: 100%;
+    }
+}
+@media(max-width:360px){
+    .sidebar{
+        flex: 1;
+        width: 100%;
+        
+    }
+    .sidebar_top{
+        flex: 1;
+        width: 48vh;
+    }
+}
+
+@media(max-width:380px){
+ 
+    .sidebar{
+        position: relative;
+        top: 80px;
+        
+        flex: 0.6;
+    }
+    .sidebar_top{
+        flex: 1;
+    }
+}
+@media(max-width:300px){
+    .sidebar_top{
+        width: 40vh;
+    }
+}

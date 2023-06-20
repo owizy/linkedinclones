@@ -1,0 +1,203 @@
+.sidebar_recentItem{
+    display: flex;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: gray;
+}
+.sidebar_recentItem:hover{
+  background-color: whitesmoke; 
+  border-radius: 10px;
+  cursor: pointer;
+  color: black; 
+}
+.sidebar_hash{
+    margin-left:10px ;
+    margin-right: 5px;
+}
+.myacc{
+    padding: 0px 30px;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 110vh;
+}
+.myacc_body{
+    width: 100%;
+    flex: 0.3;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.myacc_body > p{
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+
+}
+ .sides1{
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0;
+}
+.kes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fom{
+   padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100px !important;
+}
+.backgrounds{
+    flex: 0.7;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+    padding: 10px;
+    gap: 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    position: relative;
+     height: 190vh;
+     margin: 0 !important;
+}
+
+.sidebar1{
+    position: absolute;
+    padding: 0;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 10px;
+    gap: 20px;
+}
+.sides1{
+    margin: 15px 0px;
+}
+@media(max-width:450px){
+    .myacc{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+      padding: 0px;
+      height: 200vh;
+    }
+
+    .sidebar1{
+        position: relative;
+
+    }
+    .myacc_body{
+        flex: 1;
+        position: absolute;
+        bottom: -39%;
+    }
+    .backgrounds{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        display: flex;
+        background-color: transparent;
+        flex-direction: column;
+    }
+}
+@media(max-width:420px){
+    .myacc_body{
+        flex: 1;
+        position: absolute;
+        bottom: -100%;
+    }
+    .fom{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .sidebar_top{
+        width: 45vh;
+    }
+}
+@media(max-width:400px){
+    .myacc_body{
+        flex: 1;
+        position: absolute;
+        bottom: -45%;
+    }
+}
+@media(max-width:390px){
+    .myacc_body{
+        position: absolute;
+        bottom: -120%;
+    }
+}
+@media(max-width:380px){
+    .myacc_body{
+        position: absolute;
+        bottom: -180%;
+    }
+    .backgrounds{
+        background-color: transparent;
+    }
+    .fom{
+        flex-direction: column;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .sidebars{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .sidebar_top{
+        width: 50vh;
+    }
+    h4{
+        font-size: 20px !important;
+    }
+     
+}
+@media(max-width:360px){
+    .myacc_body{
+        flex: 1;
+        position: absolute;
+        bottom: -160%;
+    }
+    .sidebars{
+        display: flex;
+        flex-wrap: wrap !important;
+        gap: 10px;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .sidebar_top{
+        width: 45vh;
+        margin: 0;
+    }
+}
+@media(max-width:300px){
+    .fom{
+       width: 120px !important;
+       display: flex !important;
+       flex-direction: row !important;
+    }   
+    .myacc_body{
+       flex: 1;
+       position: absolute;
+       bottom: -200%;
+    }
+   }

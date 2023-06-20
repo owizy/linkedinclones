@@ -1,0 +1,129 @@
+.first{
+ display: flex;   
+ margin: 20px;
+}
+.login{
+    background-color: #F1F1F1;
+}
+.first > h1{
+    color: #0288D1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.div_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 28%;
+        background-color: #fff;
+    box-shadow: 0px 0px 0px 0.1px black ;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+form > .sign{
+    margin-top: 10px;
+}
+.sign > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500;
+}
+.sign > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label  input{
+    margin: 40px 0px ;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #000;
+}
+form > button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0288D1;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+form > span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+form > .goggle{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: transparent;
+    color: #000;
+}
+    
+form > .display{
+    display: flex;
+    align-items: center;
+    border: 1px solid black !important;
+    margin: 10px 0px;
+    padding: 1px 5px;
+    width: 100%;
+    position: relative;
+}
+.display > input{
+    border: none;
+   margin: 0px;    
+}
+.display > img{
+  cursor: pointer;
+  position: relative;
+}
+span > p > small{
+    font-size: 15px;
+    color: #0288D1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+ input:focus{
+    border: 1px solid #0288D1;
+}
+.display > input:focus{
+    border: none;
+    outline: none;
+}
+.display:focus{
+    border: 1px solid #0288D1
+}
+.labs{
+    display: flex;
+    flex-direction: column;
+}
+.labs > p{
+    margin-top: 30px;
+}
+.labs > input{
+    margin-top: 0px;
+}
+.enter{
+    font-size: 12px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media(max-width:450px){
+ form{
+    width: 90%;
+ }   
+}

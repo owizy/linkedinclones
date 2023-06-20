@@ -1,0 +1,98 @@
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+    margin-top: 90px;
+}
+.feed_inputContainer{
+   background-color: #fff;
+   padding: 10px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.feed-input{
+    border: none;
+    display: flex;
+    
+}
+ .form{
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    color: gray;
+}
+
+.feed-input > .form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: 600;
+    outline: none;
+}
+.feed-input > .form > button{
+    display: none;
+}
+.feed_inputOption{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+@media(max-width:450px){
+    .feed{
+        flex: 0.6;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .feed_inputContainer{
+        background-color: #fff;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 42vh;
+     }
+     .feed_inputOption{
+        display: flex;
+        justify-content: space-evenly;
+        border: none;
+        
+    }
+}
+@media(max-width:420px){
+    .feed_inputContainer{
+        width: 45vh;
+    }
+}
+@media(max-width:400px){
+    .feed_inputContainer{
+        width: 45vh;
+    }
+}
+
+@media(max-width:380px){
+    .feed_inputContainer{
+        background-color: #fff;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 55vh;
+     }
+}
+@media(max-width:360px){
+    .feed_inputContainer{
+        background-color: #fff;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 50vh;
+     }
+}
+@media(max-width:300px){
+    .feed_inputContainer{
+        width: 43vh;
+    }
+}

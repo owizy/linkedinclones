@@ -1,0 +1,122 @@
+.bod{
+    width: 100%;
+    background-color: #fff;
+    color: gray;
+    padding: 10px;
+}
+.bod > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.chatcont{
+    width: 100%;
+    background-color: lightgray;
+    height: 100vh;
+    position: relative;
+    
+}
+.cont_chat{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    border-radius: 0px !important;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+}
+.cont_chat > input{
+    flex: 0.8;
+    outline: none;
+    border: none;
+    padding: 0px 30px;
+}
+.cont_chat > button{
+    flex: 0.2;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #0A66C2;
+    color: #fff;
+}
+.cont_chat > button:hover{
+    background-color: darkgray;
+    color: #000;
+}
+.shoe{
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll !important;
+     background-color: lightgray;
+}
+.fom{
+ width: 500px;
+ border-radius: 15px;
+ display: flex;   
+ align-items: center;
+ 
+ flex-direction: row;
+}
+.p_header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fom{
+    margin-left: 100px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 20px;
+    border-radius:15px 15px 15px 0px;
+    margin: 0px 10px;
+    gap: 5px;
+    
+}
+.info >h1{
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #0A66C2; 
+}
+.info > p{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+.bod a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #000;
+}
+@media(max-width:450px){
+   .shoe{
+    overflow-x: hidden;
+   }
+    .fom{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .cont_chat > input{
+          flex: 0.9;
+    }
+    .chatcont > button{
+        flex: 0.1 !important;
+        width: 100%;
+    }
+    .bod a{
+        margin: 10px;
+    }
+    .info{
+        max-width: 250px;
+    }
+}
